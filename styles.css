@@ -1,0 +1,369 @@
+body {
+    background: white;
+    min-height: 100%;
+    margin:0 auto;
+    background: grey;
+
+}
+header{
+    width:100%;
+    text-align: left;
+    
+}
+.titulo{
+    color:white;
+    font-family: "Mulish", sans-serif;
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left:10px;
+    padding:10px;
+
+}
+.boton {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    background-color: #ff702a;
+    border: 0px solid #ff702a;  
+    display: inline-block;   
+    margin-top: 10px;
+    border-radius: 10px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+     
+   
+}
+
+.boton:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+#contenido{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#menulateral{
+    width: 20%;
+    border-radius: 2px;
+    background-color: grey;
+    
+}
+
+.listamenu{
+    width: 90%;
+    height: 40%;
+    margin-left: 10px;
+    padding:10px;
+    
+    
+}
+.listamenu ul{
+    padding: 0;
+    margin-left: 10px;
+    
+}
+.listamenu ul li{
+    list-style:none;
+    margin-bottom:15px; 
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.listamenu ul li a{
+    color:white;
+    font-family: "Mulish", sans-serif;
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+    transition: .4s;
+    text-decoration: none;
+    
+}
+.bodyuno{
+    display: grid;
+    width:72vw;
+    align-items: center;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+
+}
+
+
+.bodyuno h1 {
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+}
+.cajacontenedora{
+    display: grid;
+    border: 2px;
+    border-radius: 20px;
+    border-color: black;
+    overflow-y: auto;
+    max-height: 50rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,auto));
+}
+
+.subtituloproducto{
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+}
+.precioproducto{
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+}
+
+.producto{
+    position: relative;
+    
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #feeee7;
+    padding: 20px;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    
+    
+}
+.imagenes{
+    width: 100%;
+    height:80%;
+    padding: 0;
+}
+.imagenes img{
+    width: 100%;
+    height: 80%;
+}
+
+.copyright{
+    color:white;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+
+}
+.carritolateral{
+    width: 90%;
+    height: 50%;
+    margin-left: 20px;
+    padding:10px;
+
+}
+.titulocarrolateral{
+
+    color:white;
+    font-family: "Mulish", sans-serif;
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: block;
+    
+    transition: .4s;
+    text-decoration: none;
+}
+
+
+/* >>>>>>>>>>>>>Estilos de carrito.html<<<<<<<<<<*/
+.bodydos{
+    display: grid;
+    width:72vw;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 70vh;
+    background: white;
+    border-radius: 20px;
+    
+
+}
+.bodydos h1{
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+
+
+}
+
+.cajacarrito{
+    display: flex;
+    background: white;
+    border: 2px;
+    border-radius: 20px;
+    background: #feeee7;
+    border-color: #feeee7
+    overflow-y: scroll;    
+    justify-content: space-between;
+    margin-bottom:20px;
+    min-height: 20vh;
+    margin-left:10px;
+    margin-right:10px;
+    
+    
+}
+.imagencarrito{
+    width: 16%;
+    
+    align-items: center;
+    padding: 10px;
+}
+.imagencarrito img{
+    max-width: 7vw;
+    max-height: 20vh;
+    
+}
+.identificacioncarrito{
+    text-align: center;
+    padding: 10px;
+    width:16%;
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+
+    
+}
+.cantidad{
+    text-align: center;
+    padding: 10px;
+    width:16%;
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+
+}
+.cajaprecio{
+    text-align: center;
+    padding: 10px;
+    width:16%;
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+
+}
+.subtotal{
+    text-align: center;
+    padding: 10px;
+    width:16%;
+    color:black;
+    font-family: "Mulish", sans-serif;
+    font-weight: <weight>;
+    font-optical-sizing: auto;
+
+}
+.logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width:16%;
+}
+
+
+.logo2{
+    font-size: 100px;
+}
+.article a{
+    margin-left: 20px;
+
+}
+.finalcarrito{
+    display: flex;
+    
+    border: 2px;
+    border-radius: 20px;
+    border-color: black;
+    overflow-y: auto;    
+    justify-content: space-between;
+    margin-bottom:20px;
+    margin-left: 10px;
+    min-height: 20vh;
+}
+.boxcarritouno{
+    margin:5px;
+    padding: 10px;
+    align-content: center;
+    margin-top: 40px;
+}
+.cajafinal{
+    display: flex;
+    width:20vw;
+    margin:5px;
+    margin-top: 30px;
+    margin-left:10px ;
+    margin-right: 70px;
+    border-radius: 10px;
+    border: 5px;
+    border-color: #333;
+    background: white;
+    padding:10px:
+
+}
+.cajafinaltexto{
+    margin-top: 30px;
+    width: 70px;
+}
+.botoneliminar{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.textocarritovacio{
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.listamenuv {
+    width: 90%;
+    height: 70%;
+    margin-left: 10px;
+    padding: 10px;
+}
+.listamenuv ul{
+    padding: 0;
+    margin-left: 10px;
+    
+}
+.listamenuv ul li{
+    list-style:none;
+    margin-bottom:15px; 
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.listamenuv ul li a{
+    color:white;
+    font-family: "Mulish", sans-serif;
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+    transition: .4s;
+    text-decoration: none;
+    
+}
+
